@@ -1,0 +1,53 @@
+Web Technologies: Web technology that used to design/develop the web pages.
+    1.html -> Hypertext markup language - Stucture/layout of web pages.
+    2.css -> Cascading style sheets - design/style of the web pages.
+    3.js -> JavaScript - logic/functionality of web pages.
+
+HTML: Hypertext markup language
+    : used to provide structure/layout to the web pages.
+    : Introduced by Tim berners-lee
+    : Html files will save with the .html extension
+    : html5 is the latest version of html.
+
+Tags: tags are used to define the structure of the web pages.
+    : tags are two types.
+        1. paired tags / container tags
+        2. Unpaired tags / non-container tags / self closing tags.
+
+paired tags: It consist of opening tag anod closing tag
+        <tagName>content</tagName>
+    ex: div, p, small, heading tags, etc...
+
+Unpaired tags: It consist of only opening tag only.
+             <tagName/>
+    ex: img, br, hr, etc...
+
+Element: Element is a combination of opening tag, closing tag and content.
+    ex: <tagName>content</tagName>
+
+
+Comment tags: It is used to add Comments in the web pages.
+            : the content of the Comment tags will not be displayed in the web pages. 
+            <!--Comment content-->
+
+Attributes: Attributes are used to add additional information to the tags.
+          :used in the opening tags  
+          :the content of the attributes will be displayed in the web pages.
+    ex: src, href, alt, title, etc..
+
+block level Elements: The content of the block level elements will be displayed in a new line.
+                    : It occupy the full width of the page.
+    ex: div, p, h1, h2, h3, etc..       
+
+inline level Elements: The content of the inline level elements will be displayed in a same line.
+                    : It does not occupy the full width of the page.
+                    : It occupies required space
+    ex: span, a, img, input, button, etc...
+
+
+List: the content of the list will be displayed in a new line
+    1.ordered list
+    2.unorderd list
+    3.data definition list/ description list
+    4.nested list
+

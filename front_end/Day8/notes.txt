@@ -1,0 +1,85 @@
+Anchor tag:
+-----------
+    - <a> tag is used to creat a link , which can navigate to another page
+    - <a> tag attributes:
+        1. href - used to specify the URL of the linked page
+        2. target - used to specify the target of the linked page
+            target="_self" - opens the linked page in same tab
+            target="_blank" - opens the linked page in new tab
+            target="_parent" - opens the linked page in parent frame
+            target="_top" - opens the linked page in top frame
+        3. rel  - used to specify the relation of the linked page
+        4. download - used to specify the downloadattribute of the linked page
+
+iFrame tag:
+-----------
+    - <iFrame> tag - used to create an inline frame, which can navigate to another page
+    - <iframe> tag atributes:
+        1.src -used to specify the URL of the linked page
+        2.width -used to specify the width of the frame
+        3.height -used to specify the height of the frame
+        4.frameborder -used to specify the border  of the frame
+        5.scrolling -used to specify the scrolling of the frame
+
+embed tags:
+-----------
+    - <embed> tag is used to a file in the web page
+    - <embed> tag attributes:
+        1. src - used to specify the URL of the file
+        2. type - used to specify the type of the file
+            audio - audio/mp3
+            video - video/mp4
+            image - image/jpeg
+        3.width -used to specify the width of the file
+        4.height -used to specify the height of the file
+Note: it can embed video, audio and image, pdf, etcc.., in the webpages but wont support controls
+
+
+image tag:
+----------
+    - <img> tag is used to a add an image in the web page
+    - <img> tag attributes:
+        1. src - used to specify the URL of the image
+        2. width - used to specify the width of the image
+        3. height - used to specify the height of the image 
+        4. alt - used to specify the alternative text of the image
+        5. title - used to specify the title of the image
+
+Video tag:
+----------
+    - <video> tag is used to a add an video in the web page
+    - <video> tag attributes:
+        1. src - used to specify the URL of the video
+        2. width - used to specify the width of the video
+        3. height - used to specify the height of the video
+        4. src - used to specify the source of the video
+        5. controls - used to specify the control of the video
+        6. autoplay - used to specify the autoplay of the video
+        7. loop - used to specify the loop of the video
+        8. poster - used to specify the poster of the video 
+audio tag:
+----------
+    - <audio> tag is used to a add an audio in the web page
+    - <audio> tag attributes:
+        1. src - used to specify the URL of the audio
+        2. width - used to specify the width of the audio
+        3. height - used to specify the height of the audio
+        4. src - used to specify the source of the audio
+        5. controls - used to specify the control of the audio
+       
+
+figure and figCaption tags:
+---------------------------
+    - <figure> tag is used to add a figure in the webpages
+    - <figCaption>  tag is used to add caption to the webpages
+
+
+
+
+
+
+
+
+
+
+

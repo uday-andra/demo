@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Seminar Schedule</title>
+    <style>
+        body{
+            margin: 50px;
+        }
+        .class1{
+            background-color: bisque;
+        }
+        .class2{
+            background-color: violet
+        }
+        .class3{
+            background-color: lightgreen
+        }
+    </style>
+</head>
+<body>
+    <center>
+  <table border="1px">
+    <thead>
+      <tr>
+        <th rowspan="3">Day</th>
+        <th colspan="3">Seminar</th>
+      </tr>
+      <tr>
+      <td colspan="2">Schedule</td>
+      
+        <th rowspan="2">Topic</th>
+      </tr>
+      <tr>
+        
+        <th>Begin</th>
+        <th>End</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td  rowspan="2">Monday</td>
+        <td class="class1" rowspan="2">8:00 a.m </td>
+        <td class="class2" rowspan="2">5:00 p.m.</td>
+        <td  rowspan="2">
+          Introduction to XML<br />
+          Validity: DTD and Relax NG
+        </td>
+      </tr>
+      <tr>
+        <td  colspan="2"></td>
+      </tr>
+      <tr>
+        <td rowspan="3">Tuesday</td>
+        <td class="class1" >8:00 a.m.</td>
+        <td class="class1" >11:00 a.m.</td>
+        <td rowspan="3">XPath <br>
+            XSL Transformations
+        </td>
+      </tr>
+      <tr>
+        <td class="class1" >11:00 a.m.</td>
+        <td class="class3" >2:00 p.m.</td>
+      </tr>
+      <tr>
+        <td class="class3" >2:00 p.m.</td>
+        <td class="class2" >5:00 p.m.</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Wednesday</td>
+        <td class="class1" >8:00 a.m.</td>
+        <td class="class3" >12:00 p.m.</td>
+        <td rowspan="2">   
+          XSL Formatting Objects
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  </center>
+</body>
+</html>
+

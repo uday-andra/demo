@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Selector</title>
+    <style>
+        div{
+            background-color: rgb(61, 13, 139);
+            height: 300px;
+        }
+        div>p{
+            background-color: red;
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>This is a child tag1</p>
+        <p>This is child tag2</p>
+        <p>This is child tag3</p>
+        
+        <span>This is child tag4</span>
+        
+        <span>
+            <p>This is a indirect child tag5</p>
+        </span>
+
+    </div>
+    <p>This is a paragraph tag outside div</p>
+</body>
+</html>

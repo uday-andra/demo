@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadhaar Enrolment/Update Certificate</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { max-width: 800px; margin: auto; border: 1px solid #ccc; padding: 20px; }
+        h2, h3 { color: #333; }
+        .section { margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 15px; }
+        .form-group { margin-bottom: 10px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+        input[type="text"], input[type="number"], input[type="date"], textarea {
+            width: calc(100% - 12px); padding: 8px; border: 1px solid #ddd; border-radius: 4px;
+        }
+        .checkbox-group label { display: inline-block; margin-right: 15px; font-weight: normal; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center;">CERTIFICATE FOR AADHAAR ENROLMENT/UPDATE</h2>
+
+        <div class="section">
+            <h3>Resident's Details</h3>
+            <div class="form-group">
+                <label for="aadhaarNumber">Aadhaar Number:</label>
+                <input type="text" id="aadhaarNumber" name="aadhaarNumber">
+            </div>
+            <div class="form-group">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName">
+            </div>
+            <div class="form-group">
+                <label for="address">House No./Bldg./Apt., Street/Road/Lane, Landmark, Area/Locality/Sector, Village/Town/City, Post Office:</label>
+                <textarea id="address" name="address" rows="4"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="pinCode">PIN Code:</label>
+                <input type="text" id="pinCode" name="pinCode">
+            </div>
+            <div class="form-group">
+                <label for="dateOfBirth">Date of Birth:</label>
+                <input type="date" id="dateOfBirth" name="dateOfBirth">
+            </div>
+            <!-- Add more resident details fields as needed -->
+        </div>
+
+        <div class="section">
+            <h3>Certifier's Details (To be filled by the Certifier Only)</h3>
+            <div class="form-group">
+                <label for="certifierName">Name of the Certifier:</label>
+                <input type="text" id="certifierName" name="certifierName">
+            </div>
+            <div class="form-group">
+                <label for="designation">Designation:</label>
+                <input type="text" id="designation" name="designation">
+            </div>
+            <div class="form-group">
+                <label for="officeAddress">Office Address:</label>
+                <textarea id="officeAddress" name="officeAddress" rows="2"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="contactNumber">Contact Number:</label>
+                <input type="text" id="contactNumber" name="contactNumber">
+            </div>
+            <div class="form-group">
+                <label>Checklist for Certifier:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="notRemarking" name="checklist" value="notRemarking">
+                    <label for="notRemarking">Not remarking</label>
+                    <input type="checkbox" id="houseDetailsFilled" name="checklist" value="houseDetailsFilled">
+                    <label for="houseDetailsFilled">House details filled</label>
+                    <input type="checkbox" id="residentSignature" name="checklist" value="residentSignature">
+                    <label for="residentSignature">Resident's signature</label>
+                    <input type="checkbox" id="certifierDetails" name="checklist" value="certifierDetails">
+                    <label for="certifierDetails">Certifier's details</label>
+                </div>
+            </div>
+            <!-- Add more certifier details and checklist items -->
+        </div>
+    </div>
+</body>
+</html>

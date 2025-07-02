@@ -1,0 +1,53 @@
+Table creation tags:
+--------------------
+
+1. <table> tag - used to create a table
+2. <thead> tag - used to create the header of the table
+3. <tbody> tag - used to create the body of the table
+4. <tfoot> tag - used to create the footer of the table
+5. <tr> tag - used to create a row 
+6. <th> tag - used to create a header cell
+7. <td> tag - used to create a data cell
+8. <caption> tag - used to createa a caption for the table
+
+
+Merging of a cell:
+------------------
+1. colspan attribute: used to merge a cell horizontally
+2. rowspan attribute: used to merge a cell vertically
+
+attributes of table tags:
+-------------------------
+1. border - used to provide border
+2. cellspacing - used to provide space between cell to cell
+3. cellpadding - used to provide space between content and border
+4. align - used to align the content horizontally(left,centre,right)
+5. bgcolor - used to provide backgroound color
+6. style - used to provide styling.
+7. width - used to provide width
+8. height - used to provide height
+
+
+Pseudo classes:
+--------------
+
+    - pseudo classes are used to apply styles to elements based on their state or behavior
+    - indicated with : and followed by the name of the psedo class
+    - ex: :hover, :active, :visited, :link, etc...
+
+pseudo elements:
+---------------
+    -it is used to apply to specific parts of an elements
+    -indicated with :: and followed by the name of the pseudo elements
+    -ex: ::before, ::after, ::first-line, ::first-letter, etc...
+
+Note: Pseudo elements are not supported for inline elements(span, em, etc...).
+
+
+Link states:
+------------
+Unvisited-blue : link attribute is used to style the link when it is not visited
+active-red : active attribute is used to style the link when it is active
+visited-purple : visited attribute is used to style the link when it is visited
+
+

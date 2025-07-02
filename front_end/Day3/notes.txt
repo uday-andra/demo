@@ -1,0 +1,67 @@
+CSS (Cascading style sheet ): 
+    :Used to design/style the web pages
+    :css files will save with .css extension
+    :Css files will be linked to the html files using the <link> tag in html file.
+
+Applying css to the web pages:
+------------------------------
+    1.inline css
+    2.internal css
+    3.external css
+
+1.inline css: it is used to apply the css to the webpages using the style attribute in html file.
+            ex: <p style="color:red;">Lorem ipsum dolor sit amet.</p>
+
+Note: Not recommended for large pages.
+    :it is recommended for small webpages when we are applying style for a single element.
+
+ selector: It is used to select the elements in the webpages.
+ --------
+ syntax:
+    selector{
+        property1:value1;
+        property2:value2;
+        property3:value3;
+    }       
+
+2.internal css:  it is used to apply the css to the webpages using the <style> tag in html file.
+            ex: <style>
+                    p{
+                        color:red;
+                    }
+                </style>
+
+NOte: It is recommended for single webpages.
+
+
+3.external css: it is used to apply the css to the webpages using the <link> tag in html file.
+              : need to creat a css file with .css extension.
+              :css file need to link to the html file using the <link> tag.
+        ex: <link rel="stylesheet" href="external.css">
+                rel- relation between the html and css file.
+                href- url of the css file (hyper reference)
+                
+Note: recommended for large web pages and multiple webpages.
+
+
+Box Model: 
+    :Used to design the layout of the webpages.
+    :Box model consist of content, padding, border and margin.
+Content: the content of the box Model.
+padding: the space between the content and the border. 
+border: the border of the box model.
+margin: the space between the box model (element) and the other box models (elements).
+
+Block level elements: 
+                    : elements occupy the full width of the pages.
+                    : it supports margin and padding.
+                    : it supports height and width.
+
+Inline level elements: 
+                    : elements do not occupy the full width of the pages.
+                    : it does not supports height and width.
+
+Conversion of block to inline level element:
+                diplay:inline-block; -> it supports height and width.
+                                    (or)
+                display:inline; -> it wont support height and width.

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector 1</title>
+    <style>
+        /* element selector */
+        li{
+            background-color: lightblue;
+
+        }
+        /* id selector */
+        #id1{
+            background-color: lime;
+        }
+        /* Class selector */
+        .class1{
+            background-color: yellow;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selector:</h1>
+    <blockquote>It is used to select HTML elements for styling.</blockquote>
+    <hr>
+    <ul>
+        <li>element Selector</li>
+        <li>id selector</li>
+        <li>class selector</li>
+        <li>attribute selector</li>
+        <li>grouping selector</li>
+        <li>Universal selector</li>
+        <li>combined Selector
+            <ul>
+            <li>descendant selector</li>
+            <li>child selector</li>
+            <li>adjacent sibling selector</li>
+            <li>general sibling selector</li></ul>
+        </li>
+    </ul>
+    <h2><u>Element Selector:</u></h2>
+    <blockquote id="id1">It is used to select elements by their tag name.</blockquote>
+    <pre>
+        syntax:
+                tagName{
+                    property:value;
+                }
+    </pre>
+    <h2><u>Id selector:</u></h2>
+    <blockquote id="id1">It is used to select elements by their id.
+        <p>id is an attribute used in opening tag.</p>
+        <p>id should be unique.</p>
+        <p>id selector indicated with "#".</p>
+    </blockquote>
+    <pre>
+        syntax:
+                #idName{
+                    property:value;
+                }
+    </pre>
+     <h2><u>Class selector:</u></h2>
+     <blockquote>It is used to select elements by their class.
+        <p class="class1">Class is an attribute used in opening tag.</p>
+        <p class="class1">Class name should be duplicate.</p>
+        <p class="class1">Class selecto indicated with "." . </p>
+     </blockquote>
+     <pre>
+        syntax: 
+                .className{
+                    property:value;
+                }
+     </pre>
+
+     <h2><u>Grouping selector:</u></h2>
+     <blockquote>It is used to select elements as grouping.
+        <p>Class selecto indicated with "," . </p>
+        <p>It is used to apply same style to multiple elements.</p>
+     </blockquote>
+     <pre>
+        syntax: 
+                selector1,selector2,selector3{
+                    property:value;
+                }
+     </pre>
+     
+           <h2><u>Universal Selector</u></h2>
+    <blockquote>It is used to select all elements
+        <p>Universal selector indicated with *</p>
+    </blockquote>
+    <pre>
+        syntax:       *{
+                        property: value;
+                    }
+        Note : it is recommended to have 
+        padding :0;
+        margin:0;
+        box-sizing: border-box;
+        content-box-it is used to set the box model by default
+                   -it calculates the width and height of an element
+                    including padding and border
+                    ex: width: 100px;
+                        height: 100px;
+                        padding: 10px;
+                        border: 2px solid black;
+                        box-sizing: content-box;
+                    calculation:
+                        width: 100px + 10px + 2px = 112px;
+                        height: 100px + 10px + 2px = 112px;
+
+     box-sizing: border-box-it is used to set the box model by manually
+                -it calculates the width and height of an element 
+                including padding and border and provides the exact width and height
+                ex: width: 100px;
+                    height: 100px;
+                    padding: 10px;
+                    border: 2px solid black;
+                    box-sizing: border-box;
+                calculation:
+                    width: 100px + 10px + 10px + 2px + 2px = 124px;
+                    height: 100px + 10px + 10px + 2px + 2px = 124px;
+
+    </pre>
+     <h2><u>Combined Selector: </u></h2>
+     <blockquote>It is used to combine multiple selectors
+        <p>It is used to apply same style to multiple elements</p></blockquote>
+        <h3><u>Descendent Selector: </u></h3>
+        <blockquote>It is used to select elements that are descendent of a specified element
+            <p>Used to select both direct and indirect child elements</p>
+            <p>descendant selectror indicated with a space</p>
+        </blockquote>
+        <pre>
+            syntax:
+                    parent child{
+                        property:value;
+                    }
+        </pre>
+        <h3><u>Child selector: </u></h3>
+        <blockquote>It is used to select elements that are direct children of a specified element
+            <p>used to select only direct chiled elements</p>
+            <p>child selector indicated with > symbol</p>
+        </blockquote>
+        <pre>
+            syntax: 
+                    parent > child{
+                        propert: value;
+                    }
+        </pre>
+        <h3><u>Adjascent Sibling selector: </u></h3>
+        <blockquote>It is used to select elements that are Adjascent Sibling of a specified element
+            <p>used to select only next sibling elements</p>
+            <p>adjascent sibling selector indicated with + symbol</p>
+        </blockquote>
+        <pre>
+            syntax: 
+                    element1 + element2{
+                        propert: value;
+                    }
+        </pre>
+         <h3><u>General Sibling selector: </u></h3>
+        <blockquote>It is used to select elements that are General Sibling of a specified element
+            <p>used to select next all sibling elements</p>
+            <p>general sibling selector indicated with ~ symbol</p>
+        </blockquote>
+        <pre>
+            syntax: 
+                    element1 ~ element2{
+                        propert: value;
+                    }
+        </pre>  
+</body>
+</html>

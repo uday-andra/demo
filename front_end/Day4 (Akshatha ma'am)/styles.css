@@ -1,0 +1,30 @@
+
+body {
+  margin: 10px 20px;
+  border: 5px solid cadetblue;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  padding: 20px;
+}
+header, footer {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  margin: 20px 0;
+}
+
+section {
+  background: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+
+footer {
+  font-size: 0.9em;
+}
